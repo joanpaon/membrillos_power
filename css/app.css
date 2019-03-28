@@ -19,12 +19,12 @@ body {
   flex-direction: column;
 }
 
-footer {
-  height: 60px;
+main {
+  height: 100%;
 
   margin: auto 0 0;
 
-  color: azure;
+  color: beige;
   font-size: 2em;
   text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
 

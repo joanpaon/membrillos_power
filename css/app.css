@@ -18,3 +18,15 @@ body {
   height: 100vh;
   min-height: 100vh;
 }
+
+footer {
+  height: 80px;
+
+  color: floralwhite;
+  font-size: small;
+
+  background-color: rgba(0, 0, 0, 0.9);
+
+  display: grid;
+  place-items: center;
+}

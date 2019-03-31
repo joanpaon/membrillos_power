@@ -15,8 +15,10 @@ html {
 }
 
 body {
-  height: 100vh;
   min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -31,4 +33,21 @@ header {
 
   display: grid;
   place-items: center;
+}
+
+main {
+  height: 100%;
+
+  margin: 0;
+
+  color: #333;
+  font-size: 2em;
+  text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+
+  background-color: #ccc;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: auto;
 }

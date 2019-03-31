@@ -18,3 +18,17 @@ body {
   height: 100vh;
   min-height: 100vh;
 }
+
+header {
+  height: 80px;
+
+  color: floralwhite;
+  font-size: 32px;
+  font-weight: bold;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+
+  background-color: rgba(0, 0, 0, 0.5);
+
+  display: grid;
+  place-items: center;
+}
